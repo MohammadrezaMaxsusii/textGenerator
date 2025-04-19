@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 # مسیر به پوشه مدل که فایل‌ها داخلش هست
-model_dir = "/path/to/your/model/directory"
+model_dir = "/home/maxsusi/Downloads/phi"
 
 # بارگذاری توکنایزر و مدل
 tokenizer = AutoTokenizer.from_pretrained(model_dir)
