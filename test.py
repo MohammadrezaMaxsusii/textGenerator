@@ -9,7 +9,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_dir)
 model = AutoModelForCausalLM.from_pretrained(model_dir)
 
 # متن ورودی برای ادامه دادن
-prompt = "Once upon a time, in a land far away,"
+prompt = "سلام دوست من"
 
 # تبدیل ورودی به توکن‌ها
 inputs = tokenizer(prompt, return_tensors="pt")
