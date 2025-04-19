@@ -9,7 +9,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_dir)
 model = AutoModelForCausalLM.from_pretrained(model_dir)
 
 # متن ورودی برای ادامه دادن
-prompt = "   فارسی سلام دوست من"
+prompt = "دوست دارم"
 
 # تبدیل ورودی به توکن‌ها
 inputs = tokenizer(prompt, return_tensors="pt")
